@@ -1,0 +1,20 @@
+@mixin font($a, $b) {
+    font-size: $a;
+    line-height: $b;
+    // font-weight: $c;
+    // color: $d;
+}
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+// vars
+$white: #fff;
+$green: #66d144;
+$green-hover: #53b135;
+$orange: #feb119;
+$black: #000000;
+
+// loop
+
