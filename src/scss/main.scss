@@ -450,5 +450,28 @@
         }
     }
 }
-
+.toggle {
+    top: 0;
+    right: 0;
+    padding: 13px 16px;
+    position: absolute;
+    z-index: 2;
+    max-width: 110px;
+    width: 100%;
+    min-height: 56px;
+    height: auto;
+    background-color: #3a1bb5;
+    div {
+        display: flex;
+        button {
+            padding: 0 5px;
+            height: 30px;
+            margin-right: 10px;
+            font-size: 22px;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}
 @import "media";
